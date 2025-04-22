@@ -19,6 +19,6 @@ for(let nr = 1; nr <= 32; nr++){
         console.log(`Levar notebook até ${nome}`);
     }
     else{
-     console.log(`Não pegae notebook para ${nome}`);
+     console.log(`Não pegar notebook para ${nome}`);
     }
 }
