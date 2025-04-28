@@ -1,8 +1,12 @@
 //Crie uma função ExibirCoresPrimarias() que contenha uma lista com as cores
 //primárias e exiba cada cor em uma linha
 
-let cores = ["vermelho", "azul", "amarelo"]
+function ExibirCoresPrimarias(){
+    let coresPrimarias = ["Vermelho", "Azul", "Amarelo"]
 
-for(let cor of cores){
-    console.log(cor)
+    for(let i = 0; i < coresPrimarias.length; i++){
+        console.log(coresPrimarias[i])
+    }
 }
+
+ExibirCoresPrimarias()

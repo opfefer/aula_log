@@ -1,13 +1,11 @@
 //Crie uma função que recebe um número como parâmetro e exiba a tabuada até o
 //10, chame essa função por 3 vezes enviando parâmetros diferentes
 
-function tabuada(nr) {
-    console.log(`Tabuada do ${nr}:`);
-    for (let i = 1; i <= 10; i++) {
-        console.log(`${nr} x ${i} = ${nr * i}`);
-    }
-    console.log('')
+function ExibirTabuada(numero){
+    console.log(`Tabuada do ${numero}: `)
+    for(let i = 0; i <= 10; i++)
+        console.log(`${numero} X ${i} = ${numero * i}`)
 }
-tabuada(2);
-tabuada(5);
-tabuada(7);
+ExibirTabuada(2)
+ExibirTabuada(5)
+ExibirTabuada(8)
